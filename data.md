@@ -157,9 +157,12 @@ ALL hadronic HH (bbZZ)
 
 # data format 
 * DxAOD
+
 # Access the data
 
+* First: need to have a GRID Certificates, the address could be find here:https://ca.cern.ch/ca/
 
-
+* Upload the GRID Certificates to lxplus. using : "voms-proxy-init -voms atlas" to load GRID certificates. 
+* using : "lsetup rucio" to setup rucio environment.
 * at Rucio: 
 Rucio download xxx (file name)
